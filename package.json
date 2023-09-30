@@ -1,0 +1,19 @@
+{
+  "name": "handlebars-to-site",
+  "version": "1.0.0",
+  "description": "Convert Handlebars to HTML static site",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brandon Newman",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8"
+  }
+}
